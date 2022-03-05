@@ -1,0 +1,5 @@
+# Test when both nodes are unknown.
+CreateGraph graph
+AddNode graph A
+FindPath graph C D
+FindPath graph M N

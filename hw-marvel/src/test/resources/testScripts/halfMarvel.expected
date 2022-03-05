@@ -1,0 +1,25 @@
+# test relatively large input
+
+loaded graph heroes
+
+path from name1 to name3:
+name1 to name3 via b1
+path from name3 to name1:
+name3 to name1 via b1
+path from name1 to name2:
+name1 to name2 via b6
+path from name2 to name1:
+name2 to name1 via b6
+path from name2 to name3:
+name2 to name3 via b4
+path from name3 to name2:
+name3 to name2 via b4
+path from name1 to name1:
+path from name2 to name2:
+path from name3 to name3:
+path from name1 to name4:
+no path found
+path from name4 to name1:
+no path found
+path from name4 to name3:
+no path found

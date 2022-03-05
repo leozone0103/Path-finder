@@ -1,0 +1,15 @@
+# Test findPath in a three-nodes map where the shorties path contains two segments.
+created graph graph
+
+added node A to graph
+added node B to graph
+added node C to graph
+
+added edge 1.000 from A to B in graph
+added edge 3.000 from A to C in graph
+added edge 1.000 from B to C in graph
+
+path from A to C:
+A to B with weight 1.000
+B to C with weight 1.000
+total cost: 2.000

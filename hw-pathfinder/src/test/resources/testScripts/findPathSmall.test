@@ -1,0 +1,24 @@
+# test relatively small amount of data
+CreateGraph graph
+
+AddNode graph A
+AddNode graph B
+AddNode graph C
+AddNode graph D
+AddNode graph E
+
+AddEdge graph A B 2.000
+AddEdge graph A C 4.000
+AddEdge graph B C 3.000
+AddEdge graph B D 1.000
+AddEdge graph D C 1.000
+AddEdge graph C D 1.000
+AddEdge graph D E 2.000
+AddEdge graph C E 5.000
+
+
+FindPath graph A E
+FindPath graph A D
+FindPath graph B C
+FindPath graph C E
+FindPath graph C B

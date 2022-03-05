@@ -1,0 +1,5 @@
+# Find path with an unknown points
+CreateGraph graph
+AddNode graph A
+FindPath graph B A
+FindPath graph A B

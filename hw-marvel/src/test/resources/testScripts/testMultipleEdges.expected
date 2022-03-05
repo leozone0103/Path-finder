@@ -1,0 +1,5 @@
+# Test multiple edges from same two nodes
+
+loaded graph heroes
+the children of Daniel in heroes are: Karlie(book1) Karlie(book2)
+the children of Karlie in heroes are: Daniel(book1) Daniel(book2)

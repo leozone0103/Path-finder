@@ -1,0 +1,7 @@
+# Test when both nodes are unknown.
+created graph graph
+added node A to graph
+unknown: C
+unknown: D
+unknown: M
+unknown: N

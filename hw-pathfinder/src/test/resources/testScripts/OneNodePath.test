@@ -1,0 +1,4 @@
+# Test findPath from a single node to itself
+CreateGraph graph
+AddNode graph A
+FindPath graph A A

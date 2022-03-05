@@ -1,0 +1,26 @@
+## CSE 331 hw-setup Questions
+## Part 6
+
+1. Why did Fibonacci fail the testThrowsIllegalArgumentException< test? What (if anything) did
+you have to do to fix it? If you did not have to change anything to fix this issue, explain why.
+It failed the test because it considered 0 as a negative number. I changed "if(n <= 0)" to "if(n < 0)"
+to include 0 in non-negative numbers.
+
+
+2. Why did Fibonacci fail the testBaseCase test? What (if anything) did you have to do to fix
+it? If you did not have to change anything to fix this issue, explain why.
+I failed testBaseCase because it's supposed to return 1 if n equals 0, but instead, it throws an
+exception. I fixed the issue by changing "if(n <= 0)" to "if(n < 0)" to include 0 in non-negative numbers, so
+that it could process the base case.
+
+
+3.Why did Fibonacci fail the testInductiveCase test? What (if anything) did you have to do to
+fix it? If you did not have to change anything to fix this issue, explain why.
+It failed the testInductiveCase since 1: it's supposed to run the inductive case when n == 2, but it falsely returns
+one; 2: we're supposed to add previous two adjacent numbers instead of subtracting one from the other one. I fixed the
+issue by changing "if(n <= 2)"" to "if(n < 2)" and "return getFibTerm(n - 1) - getFibTerm(n - 2)" to
+ "return getFibTerm(n - 1) + getFibTerm(n - 2)".
+
+ I changed contents in BallContainer to be public in order to access it in Box.java.
+
+

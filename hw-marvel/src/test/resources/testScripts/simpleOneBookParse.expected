@@ -1,0 +1,6 @@
+# Test the parser on a graph that contains two nodes
+# with one edge each
+
+loaded graph heroes
+the children of Daniel-hi-123 in heroes are: ZiangItsMe234(book1)
+the children of ZiangItsMe234 in heroes are: Daniel-hi-123(book1)

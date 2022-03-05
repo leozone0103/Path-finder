@@ -1,0 +1,12 @@
+# Test findPath in a three-nodes map where the shorties path contains two segments.
+CreateGraph graph
+
+AddNode graph A
+AddNode graph B
+AddNode graph C
+
+AddEdge graph A B 1.000
+AddEdge graph A C 3.000
+AddEdge graph B C 1.000
+
+FindPath graph A C

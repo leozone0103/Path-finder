@@ -1,0 +1,6 @@
+# Test the parser on a graph that contains two nodes
+# with one edge each
+
+LoadGraph heroes simpleData.csv
+ListChildren heroes Daniel-hi-123
+ListChildren heroes ZiangItsMe234

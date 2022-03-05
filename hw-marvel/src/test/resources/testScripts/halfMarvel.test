@@ -1,0 +1,16 @@
+# test relatively large input
+
+LoadGraph heroes halfMarvel.csv
+
+FindPath heroes name1 name3
+FindPath heroes name3 name1
+FindPath heroes name1 name2
+FindPath heroes name2 name1
+FindPath heroes name2 name3
+FindPath heroes name3 name2
+FindPath heroes name1 name1
+FindPath heroes name2 name2
+FindPath heroes name3 name3
+FindPath heroes name1 name4
+FindPath heroes name4 name1
+FindPath heroes name4 name3

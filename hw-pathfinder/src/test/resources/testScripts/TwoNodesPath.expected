@@ -1,0 +1,10 @@
+# Test findPath between two nodes
+created graph graph
+added node A to graph
+added node B to graph
+
+added edge 5.432 from A to B in graph
+
+path from A to B:
+A to B with weight 5.432
+total cost: 5.432

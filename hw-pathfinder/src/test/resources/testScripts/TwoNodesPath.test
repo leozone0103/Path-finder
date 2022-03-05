@@ -1,0 +1,8 @@
+# Test findPath between two nodes
+CreateGraph graph
+AddNode graph A
+AddNode graph B
+
+AddEdge graph A B 5.4321
+
+FindPath graph A B

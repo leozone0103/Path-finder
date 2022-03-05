@@ -1,0 +1,5 @@
+# Test when no path exists
+CreateGraph graph
+AddNode graph A
+AddNode graph B
+FindPath graph A B

@@ -1,0 +1,5 @@
+# Test when no path exists
+created graph graph
+added node A to graph
+added node B to graph
+path from A to B:

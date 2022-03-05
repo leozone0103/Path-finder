@@ -1,0 +1,17 @@
+# Test findPath between two nodes with multiple edges
+created graph graph
+
+added node A to graph
+added node B to graph
+
+added edge 1.000 from A to B in graph
+added edge 2.000 from A to B in graph
+added edge 3.000 from B to A in graph
+added edge 4.000 from B to A in graph
+
+path from A to B:
+A to B with weight 1.000
+total cost: 1.000
+path from B to A:
+B to A with weight 3.000
+total cost: 3.000

@@ -1,0 +1,5 @@
+# Test multiple edges from same two nodes
+
+LoadGraph heroes multipleEdges.csv
+ListChildren heroes Daniel
+ListChildren heroes Karlie

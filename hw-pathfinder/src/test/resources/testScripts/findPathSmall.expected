@@ -1,0 +1,37 @@
+# test relatively small amount of data
+created graph graph
+
+added node A to graph
+added node B to graph
+added node C to graph
+added node D to graph
+added node E to graph
+
+added edge 2.000 from A to B in graph
+added edge 4.000 from A to C in graph
+added edge 3.000 from B to C in graph
+added edge 1.000 from B to D in graph
+added edge 1.000 from D to C in graph
+added edge 1.000 from C to D in graph
+added edge 2.000 from D to E in graph
+added edge 5.000 from C to E in graph
+
+
+path from A to E:
+A to B with weight 2.000
+B to D with weight 1.000
+D to E with weight 2.000
+total cost: 5.000
+path from A to D:
+A to B with weight 2.000
+B to D with weight 1.000
+total cost: 3.000
+path from B to C:
+B to D with weight 1.000
+D to C with weight 1.000
+total cost: 2.000
+path from C to E:
+C to D with weight 1.000
+D to E with weight 2.000
+total cost: 3.000
+path from C to B:
